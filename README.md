@@ -220,18 +220,6 @@ Feature importance analysis reveals that target-encoded regional and equipment c
 pip install numpy pandas matplotlib seaborn scipy scikit-learn lightgbm xgboost
 ```
 
-### Running the Notebook
-1. Clone or place the project files into your working directory:
-   ```bash
-   git clone https://github.com/SathyaH02/SkillFusion.git
-   cd SkillFusion
-   ```
-2. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook "24f2005474-notebook-2026t2 (1).ipynb"
-   ```
-3. Execute all cells sequentially. The notebook will run EDA, build features, train models, output validation metrics, and save `submission.csv`.
-
 ---
 
 ## Technology Stack
@@ -244,6 +232,3 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn lightgbm xgboost
 - **Development Environment:** Jupyter Notebook / Kaggle Kernel
 
 ---
-
-## License & Attribution
-This repository is maintained as part of the Machine Learning Practice (MLP) coursework. Dataset provided via Heavy Equipment Selling Price Prediction Challenge.
